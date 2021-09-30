@@ -1,0 +1,14 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["migration"]
+body:
+  - type: textarea
+    id: logs
+    attributes:
+      label: Repositories
+      description: Test
+      render: shell
+      value: |
+        group1,repo1
+        group2,repo2
